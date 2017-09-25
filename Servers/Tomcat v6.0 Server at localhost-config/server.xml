@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="yuekan" path="/yuekan" reloadable="true" source="org.eclipse.jst.jee.server:yuekan"/></Host>
+      <Context docBase="yuekan_v0.2" path="/yuekan_v0.2" reloadable="true" source="org.eclipse.jst.jee.server:yuekan_v0.2"/></Host>
     </Engine>
   </Service>
 </Server>
